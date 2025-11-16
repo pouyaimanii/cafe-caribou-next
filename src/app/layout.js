@@ -3,10 +3,10 @@ import "./globals.css";
 import Footer from "@/components/home/Footer";
 
 export const metadata = {
-  title: "OCAFE",
+  title: "CARIBOU",
   description: "Welcom",
   icons: {
-    icon: "/images/logo.png",
+    icon: "/images/logoo.jpg",
   },
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`font-vazir antialiased bg-[#F9832C]`}
+        className={`font-vazir antialiased bg-primary`}
       >
         <Header />
         {children}

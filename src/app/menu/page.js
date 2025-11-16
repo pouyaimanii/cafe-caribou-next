@@ -5,9 +5,6 @@ import { Icon } from '@iconify/react';
 import Image from "next/image";
 import Link from 'next/link';
 
-{/* <div className='flex justify-center'>
-            <Image src="/images/19.png" alt='coffe' width="300" height="300" />
-          </div> */}
 
 export default function Menu() {
     return (
@@ -17,21 +14,46 @@ export default function Menu() {
 
                 <div className='grid grid-cols-1'>
                     <div className='flex justify-center items-center gap-2 my-5'>
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-                        <h3 className="whitespace-nowrap text-[#2B1D0E]/80 font-bold mx-2">دسته بندی ها</h3>
+                        <div className="h-0 border-[0.1px] w-full border-textPrimary/50"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 font-bold mx-2">دسته بندی ها</h3>
 
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <div className="h-0 border-[0.1px] w-full border-textPrimary/50"></div>
                     </div>
                     <div className='grid mx-4 grid-cols-2 md:grid-cols-5 gap-10 my-10 justify-center items-center justify-items-center text-center'>
 
                         <Link href="#hotdrinks" className='grid grid-cols-1 items-center gap-2 '>
-                            <Image src="/images/h2.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
-                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>نوشیدنی گرم</h3>
+                            <Image src="/images/c2.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>قهوه دمی</h3>
 
                         </Link>
                         <Link href="#matcha" className='grid grid-cols-1 items-center gap-2 '>
-                            <Image src="/images/m1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="140" height="140" />
-                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>مـاچـا</h3>
+                            <Image src="/images/c3.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="140" height="140" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>کیک و دسر</h3>
+
+                        </Link>
+                        <Link href="#shake" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/sh1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>شیک </h3>
+
+                        </Link>
+                        <Link href="#espresso" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/s1.jpg" className=' h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>بر پایه اسپرسو</h3>
+
+                        </Link>
+                        <Link href="#icecoffee" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/i1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>آیس کافی</h3>
+
+                        </Link>
+                        <Link href="#hotdrinks" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/c8.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>بر پایه شکلات</h3>
+
+                        </Link>
+                        <Link href="#matcha" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/c12.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="140" height="140" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>اسموتی</h3>
 
                         </Link>
                         <Link href="#shake" className='grid grid-cols-1 items-center gap-2 '>
@@ -61,7 +83,7 @@ export default function Menu() {
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-                        <h3 className="whitespace-nowrap text-[#2B1D0E]/80 font-bold mx-2">HOT DRINKS</h3>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">اسپرسو</h3>
 
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
 
@@ -70,80 +92,1004 @@ export default function Menu() {
 
 
 
-                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>هات چاکلت</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>90,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر شکلات شیری + شیر گرم + فوم شیر</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100 عربیکا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>95,000 تومان</h3></div>
                             </div>
                             <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>وایت چاکلت</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>90,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر شکلات سفید + شیر گرم + فوم شیر</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>20/80 ربوستا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>65,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/vh.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>چای لاته ماسالا</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>90,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماسالا + شیر گرم + فوم شیر</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>50/50 روبوستا-عربیکا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>70,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/hlm.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>چای لاته کرک</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>80,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر چای کرک ، شیر گرم، فوم شیر</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>30/70 عربیکا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>85,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/hlt.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>نسکافه</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>80,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر نسکافه اکوادور + شیر گرم + شکر</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100 ربوستا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>60,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/n.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>شیر کاکائو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>70,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر کاکائو ترک + شیر گرم + شکر</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آمریکانو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>75,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/shk.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>چای دمی</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>35,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>چای سیاه + هل + زعفران</h3></div>
-
-
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>رومانو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>85,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ch.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>عسل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>دارچین</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>70,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>زنجبیل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>70,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>زعفران</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>90,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>75,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>فروت کافی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>75,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
+                    </div>
+
+                </div>
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">قهوه دمی</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کمکس</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>قهوه ترک</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>85,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>فرنچ پرس</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">بر پایه اسپرسو</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کاپوچینو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>95,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>لته</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>ماکیاتو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موکا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>دالگونا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>فلت وایت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>85,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کورتادو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شیر عسل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>90,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>قهوه فوری</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>70,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>قهوه یونانی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>85,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شیر نسکافه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>85,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">بر پایه شکلات</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هات چاکلت کاریبو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هات چاکلت دارچینی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>105,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هات چاکلت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هات فندق</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>105,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هات زعفران</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>وایت چاکلت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شیر کاکائو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">چای و دمنوش</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>چای سیاه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>60,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>چای سبز</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>75,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>چای زعفران</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>70,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>چای گل گاوزبان+عسل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>چای ماسالا + عسل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>دمنوش آرام</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>دمنوش گیاهی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>90,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>دمنوش چای ترش</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>دمنوش سلامت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">آیس کافی</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس لته</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>105,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس لته کلاسیک</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس آمریکانو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>80,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس موکا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس ماکیاتو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس توت فرنگی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آیس رومانو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>90,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آفوگاتو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کوک اسپرسو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">اسموتی</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موز توت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>توت آلبالو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>سیب ترش</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موز انبه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>هلو انبه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موز آلبالو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>چری بری</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شیر موز</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>100,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شیر خرما</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>90,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">ماکتل</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>لیموناد</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>95,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>لیموناد لوندر</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>105,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موهیتو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>ارگاردن</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مینت بری</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آبریش</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>پاتریک</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>نئون لاو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موهیتو توت فرنگی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>بلو دریم</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>150,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کاریبو نایت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مید نایت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>انرژی آپ جویس</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>رد وایلت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مانگو لایم</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>پینک دی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">شیک</h3>
+
+                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
+
+
+                    </div>
+
+
+
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>نوتلا</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>150,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>وانیل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شکلات</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کارامل</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>پی نات دریم</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کپت کت</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>اورنو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>150,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>بادام زمینی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>توت فرنگی</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مانگو</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>قهوه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موز شکلات</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>میوه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>M&M</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>اسنیکرز</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>170,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>نسکافه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شکلات تلخ</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کافه گلاسه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>105,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>شاتوت گلاسه</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
+
+
+
+
+
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>پروتئین</h3></div>
+                                <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>170,000 تومان</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
 
 
 
@@ -154,79 +1100,31 @@ export default function Menu() {
                 </div>
 
 
-                <div id="shake" className='grid grid-cols-1 '>
 
-                    <div className='flex justify-center items-center gap-2 mt-24'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id='hotdrinks' className='grid grid-cols-1 '>
+
+                    <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-                        <h3 className="whitespace-nowrap text-[#2B1D0E]/80 font-bold mx-2">SHAKE</h3>
-
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-
-
-                    </div>
-
-
-
-                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>شیک شکلات</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>150,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>بستنی رقیق شده + تکه های شکلات</h3></div>
-                            </div>
-                            <Image src="/images/shsh.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>شیک نوتلا</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>180,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>بستنی رقیق شده + نوتلا</h3></div>
-                            </div>
-                            <Image src="/images/shn.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>شیک پینات</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>180,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>بستنی رقیق شده + کره بادام زمینی</h3></div>
-                            </div>
-                            <Image src="/images/shp.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>شیک لوتوس</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>160,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>بستنی رقیق شده + کرم لوتوس</h3></div>
-                            </div>
-                            <Image src="/images/shl.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>شیک تیرامیسو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>150,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>بستنی رقیق شده + قهوه + کرم بیسکوئیت</h3></div>
-                            </div>
-                            <Image src="/images/sht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-
-
-
-
-
-
-                    </div>
-
-                </div>
-
-
-
-                <div id='matcha' className='grid grid-cols-1 '>
-
-                    <div className='flex justify-center items-center gap-2 mt-24'>
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-                        <h3 className="whitespace-nowrap text-[#2B1D0E]/80 font-bold mx-2">MATCHA BAR</h3>
+                        <h3 className="whitespace-nowrap text-textPrimary/90 text-xl font-semibold mx-2">کیک و دسر</h3>
 
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
 
@@ -235,63 +1133,39 @@ export default function Menu() {
 
 
 
-                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                    <div className="text-textPrimary grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
 
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>ماچا لاته</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>130,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماچا و آب گرم + شیر گرم + فوم شیر</h3></div>
+                        <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک روز</h3></div>
                             </div>
-                            <Image src="/images/ml.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس ماچا لاته</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>140,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماچا + شیر سرد + یخ</h3></div>
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک فرانسوی</h3></div>
                             </div>
-                            <Image src="/images/aml.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس ماچا استرابری</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>170,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماچا + شیر سرد + یخ + سیروپ و میوه توت فرنگی</h3></div>
-                            </div>
-                            <Image src="/images/ama.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس ماچا منگو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>190,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماچا + شیر سرد + یخ + سیروب و میوه انبه</h3></div>
-                            </div>
-                            <Image src="/images/ammm.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>ماچا چیلو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>190,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماچا + بستنی + شیر + یخ</h3></div>
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک هویج</h3></div>
                             </div>
-                            <Image src="/images/mch.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>ماچا گاتو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>190,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>پودر ماچا + آب + بستنی وانیلی</h3></div>
-                            </div>
-                            <Image src="/images/mg.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
+                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
+                            <div className="grid grid-cols-1 font-semibold ">
+                                <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک فول چاکلت</h3></div>
+                            </div>
+                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                        </div>
 
+                        
 
-
-
+                       
 
 
 
@@ -302,118 +1176,6 @@ export default function Menu() {
 
 
 
-                <div id='espresso' className='grid grid-cols-1 '>
-
-                    <div className='flex justify-center items-center gap-2 mt-24'>
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-                        <h3 className="whitespace-nowrap text-[#2B1D0E]/80 font-bold mx-2">ESPRESSO BAR</h3>
-
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-
-
-                    </div>
-
-
-
-                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آمریکانو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>80,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + آب جوش</h3></div>
-                            </div>
-                            <Image src="/images/emerican.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>لاته</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>100,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شیر گرم</h3></div>
-                            </div>
-                            <Image src="/images/late.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>کاپوچینو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>100,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شیر گرم + فوم شیر زیاد</h3></div>
-                            </div>
-                            <Image src="/images/capochino.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>موکا</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>120,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شکلات + شیر گرم</h3></div>
-                            </div>
-                            <Image src="/images/moka.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>کارامل ماکیاتو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>120,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + کارامل + شیر گرم</h3></div>
-                            </div>
-                            <Image src="/images/cm.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>ماکیاتو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>110,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شیر گرم + فوم شیر</h3></div>
-                            </div>
-                            <Image src="/images/m.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>فلت وایت</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>100,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شیر گرم + فوم شیر</h3></div>
-                            </div>
-                            <Image src="/images/fv.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>کورتادو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>80,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شیر گرم + فوم شیر کم</h3></div>
-                            </div>
-                            <Image src="/images/k.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>رومانو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>80,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + لیموی تازه + آب جوش</h3></div>
-                            </div>
-                            <Image src="/images/r.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>دالگونا</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>80,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + فوم دالگونا + شیر گرم</h3></div>
-                            </div>
-                            <Image src="/images/d.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آفوگاتو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>120,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + دو اسکوپ بستنی وانیلی</h3></div>
-                            </div>
-                            <Image src="/images/af.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
 
 
 
@@ -424,131 +1186,11 @@ export default function Menu() {
 
 
 
-                    </div>
 
+                <div className='flex justify-center mt-10'>
+                    <Image src="/images/19.png" alt='coffe' width="300" height="300" />
                 </div>
 
-
-                <div id='icecoffee' className='grid grid-cols-1 '>
-
-                    <div className='flex justify-center items-center gap-2 mt-24'>
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-                        <h3 className="whitespace-nowrap text-[#2B1D0E]/80 font-bold mx-2">ICED COFFEE BAR</h3>
-
-                        <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
-
-
-                    </div>
-
-
-
-                    <div className="grid mx-3 grid-cols-1 md:grid-cols-2 gap-6 my-8">
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس آمریکانو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>90,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + آب + یخ</h3></div>
-                            </div>
-                            <Image src="/images/am.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس لاته</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>110,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شیر سرد + یخ</h3></div>
-                            </div>
-                            <Image src="/images/al.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>کن هیلو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>70,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + یخ</h3></div>
-                            </div>
-                            <Image src="/images/kh.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس کارامل ماکیاتو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>130,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + کارامل + شیر سرد + یخ</h3></div>
-                            </div>
-                            <Image src="/images/akm.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس موکا</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>130,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + شکلات + شیر سرد + یخ</h3></div>
-                            </div>
-                            <Image src="/images/amm.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس رومانو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>110,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + آب سودا + لیمو + یخ</h3></div>
-                            </div>
-                            <Image src="/images/ar.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>اورنج کافی</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>140,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + آب پرتقال + یخ</h3></div>
-                            </div>
-                            <Image src="/images/ok.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>آیس دالگونا</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>140,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + فوم دالگونا + شیر سرد + یخ</h3></div>
-                            </div>
-                            <Image src="/images/ad.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>کاپاچیلو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>160,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + بستنی وانیلی + شیر + یخ</h3></div>
-                            </div>
-                            <Image src="/images/kp.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-                        <div className="flex  justify-between border-2 border-[#2B1D0E]/50 rounded-3xl p-2">
-                            <div className="gid grid-cols-1   text-[#2B1D0E]/80 font-semibold ">
-                                <div className="mt-1 flex items-center gap-1"><Icon icon="ph:shopping-bag-bold" width={20} height={20} className='font-bold' /><h3>کارامل کاپاچیلو</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="solar:dollar-outline" width={20} height={20} className='font-bold' /><h3>90,000 تومان</h3></div>
-                                <div className="mt-3 flex items-center gap-1"><Icon icon="streamline-freehand:task-list-pen" width={20} height={20} className='font-bold' /><h3>اسپرسو دبل + سس کارامل + بستنی وانیلی + شیر + یخ</h3></div>
-                            </div>
-                            <Image src="/images/kk.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
-                        </div>
-
-
-
-
-
-
-
-
-
-
-                    </div>
-
-                </div>
-
-
-
-         <div className='flex justify-center mt-10'>
-                  <Image src="/images/19.png" alt='coffe' width="300" height="300" />
-                </div>
-        
 
             </div>
 
