@@ -21,54 +21,54 @@ export default function Menu() {
                     </div>
                     <div className='grid mx-4 grid-cols-2 md:grid-cols-5 gap-10 my-10 justify-center items-center justify-items-center text-center'>
 
-                        <Link href="#hotdrinks" className='grid grid-cols-1 items-center gap-2 '>
+                        <Link href="#ge" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/c2.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>قهوه دمی</h3>
 
                         </Link>
-                        <Link href="#matcha" className='grid grid-cols-1 items-center gap-2 '>
-                            <Image src="/images/c3.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="140" height="140" />
+                        <Link href="#k" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/mmkk.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="140" height="140" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>کیک و دسر</h3>
 
                         </Link>
-                        <Link href="#shake" className='grid grid-cols-1 items-center gap-2 '>
+                        <Link href="#sh" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/sh1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>شیک </h3>
 
                         </Link>
-                        <Link href="#espresso" className='grid grid-cols-1 items-center gap-2 '>
+                        <Link href="#eses" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/s1.jpg" className=' h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>بر پایه اسپرسو</h3>
 
                         </Link>
-                        <Link href="#icecoffee" className='grid grid-cols-1 items-center gap-2 '>
+                        <Link href="#i" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/i1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>آیس کافی</h3>
 
                         </Link>
-                        <Link href="#hotdrinks" className='grid grid-cols-1 items-center gap-2 '>
+                        <Link href="#ck" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/c8.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>بر پایه شکلات</h3>
 
                         </Link>
-                        <Link href="#matcha" className='grid grid-cols-1 items-center gap-2 '>
+                        <Link href="#s" className='grid grid-cols-1 items-center gap-2 '>
                             <Image src="/images/c12.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="140" height="140" />
                             <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>اسموتی</h3>
 
                         </Link>
-                        <Link href="#shake" className='grid grid-cols-1 items-center gap-2 '>
-                            <Image src="/images/sh1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
-                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>شیک </h3>
+                        <Link href="#ch" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/gfg.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>چای و دمنوش </h3>
 
                         </Link>
-                        <Link href="#espresso" className='grid grid-cols-1 items-center gap-2 '>
-                            <Image src="/images/s1.jpg" className=' h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
-                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>قهوه</h3>
+                        <Link href="#m" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/mmhh.jpg" className=' h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>ماکتل</h3>
 
                         </Link>
-                        <Link href="#icecoffee" className='grid grid-cols-1 items-center gap-2 '>
-                            <Image src="/images/i1.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
-                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>آیس کافی</h3>
+                        <Link href="#sos" className='grid grid-cols-1 items-center gap-2 '>
+                            <Image src="/images/ese.jpg" className='h-40 w-40 rounded-full border-2 border-[#FFF7ED]/80' alt='coffe' width="100" height="100" />
+                            <h3 className='font-semibold text-xl text-[#FFF7ED]/75'>اسپرسو</h3>
 
                         </Link>
 
@@ -79,7 +79,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='sos' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -190,7 +190,7 @@ export default function Menu() {
 
                 </div>
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='ge' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -238,7 +238,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='eses' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -351,7 +351,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='ck' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -431,7 +431,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='ch' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -529,7 +529,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='i' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -625,7 +625,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='s' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -726,7 +726,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='m' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -746,7 +746,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>لیموناد</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>95,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/lim.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -754,7 +754,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>لیموناد لوندر</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>105,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/liim.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -762,7 +762,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موهیتو</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/mio.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -770,7 +770,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>ارگاردن</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/aza.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -778,7 +778,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مینت بری</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/mint.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -786,7 +786,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>آبریش</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/up.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -794,7 +794,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>پاتریک</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/pat.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
 
@@ -803,7 +803,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>نئون لاو</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/nen.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -811,7 +811,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>موهیتو توت فرنگی</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>110,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/moh.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
 
@@ -820,7 +820,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>بلو دریم</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>150,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/blue.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -828,7 +828,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کاریبو نایت</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/cac.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -836,7 +836,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مید نایت</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/mid.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -844,7 +844,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>انرژی آپ جویس</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/en.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -852,7 +852,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>رد وایلت</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>120,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/red.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -860,7 +860,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>مانگو لایم</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>130,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/mang.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
@@ -868,7 +868,7 @@ export default function Menu() {
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>پینک دی</h3></div>
                                 <div className="mt-3 flex items-center gap-2"><Icon icon="solar:dollar-outline" width={23} height={23} className='font-bold' /><h3 className='text-xl'>140,000 تومان</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/pink.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
 
@@ -888,7 +888,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='sh' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -1120,7 +1120,7 @@ export default function Menu() {
 
 
 
-                <div id='hotdrinks' className='grid grid-cols-1 '>
+                <div id='k' className='grid grid-cols-1 '>
 
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <div className="h-0 border-[0.1px] w-full border-[#FFF7ED]/40"></div>
@@ -1139,28 +1139,28 @@ export default function Menu() {
                             <div className="grid grid-cols-1 font-semibold ">
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک روز</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/krk.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                          <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
                             <div className="grid grid-cols-1 font-semibold ">
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک فرانسوی</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/kfk.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                          <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
                             <div className="grid grid-cols-1 font-semibold ">
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک هویج</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/khk.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                          <div className="flex  justify-between border-2 border-textPrimary/80 rounded-3xl p-2">
                             <div className="grid grid-cols-1 font-semibold ">
                                 <div className="mt-1 flex items-center gap-2"><Icon icon="ph:shopping-bag-bold" width={23} height={23} className='font-bold' /><h3 className='text-xl'>کیک فول چاکلت</h3></div>
                             </div>
-                            <Image src="/images/ht.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
+                            <Image src="/images/kkf.jpg" alt="cofe" className="rounded-2xl" width={130} height={130} />
                         </div>
 
                         

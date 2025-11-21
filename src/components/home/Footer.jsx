@@ -43,8 +43,7 @@ export default function Footer() {
             >
               <h3 className='  text-xl'>اینستاگرام</h3>
             </a>
-            <h3 className='text-xl'>تلگرام</h3>
-            <h3 className='text-xl'>واتساپ</h3>
+            
 
 
           </div>
